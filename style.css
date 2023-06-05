@@ -1,0 +1,60 @@
+.logo{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.btn-black{
+    background-color: black;
+    color: white;
+    width: 170px;
+    margin: auto   ;
+    margin-top: 200px;
+    border-radius: 30px;
+    
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movie{
+    width: 204px;
+   background-color: rgb(235, 229, 229);
+    margin: 1.5rem;
+    border-radius: 10px ;
+
+text-align: center;
+box-shadow: 2px 4px 5px 3px rgb(0, 0, 0);
+
+
+}
+.overview{
+    position: absolute;
+    transform: translateY(+101%);
+    max-height: 100%;
+}
+.movie:hover .overview{
+    transform: translateY(0);
+}
+
+span.green{
+    font-size: 30px;
+    color: lightgreen;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+}
+ span.orange{
+    font-size: 30px;
+    color: orange;
+}
+ span.red{
+    font-size: 30px;
+    color: red;
+}
+ span.rating{
+    font-size: 20px;
+    
+}
+.card-img-top {
+    width: 100%;
+    
+}
